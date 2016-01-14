@@ -1,4 +1,4 @@
-function [eH,H]=Hstark2D(E,r,fl,Pl,Flist)
+function [eH,H]= Hstark2D(E,r,fl,Pl,Flist)
 
 %%  This program calculates the eigenenergies for each hyperfine state of interest at each position. This progrm assumes the electric filed is defined along one line.
 %% Inputs:  E: electric field, in a 3D structure, in cartesian components. Can contain different profiles, according to how many modes are incorporated. The first component refers to the position index and the second to the diferent wavelengths.
